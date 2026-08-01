@@ -1,25 +1,39 @@
+# Virtual environments
+venv/
+.venv/
+
 # Python
 __pycache__/
 *.py[cod]
 *.pyo
 
-# Virtual environment
-venv/
-.venv/
-
 # Environment variables
 .env
-
-# Vector database
-vector_store/
-
-# Models
-models/
 
 # IDE
 .vscode/
 .idea/
 
-# OS
+# OS files
 Thumbs.db
 .DS_Store
+
+# Logs
+*.log
+
+# Python cache
+.pytest_cache/
+
+# Local vector databases
+vector_store/
+
+# Downloaded AI models (if stored locally)
+models/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
